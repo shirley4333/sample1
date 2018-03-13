@@ -1,0 +1,166 @@
+/*整體版面設定*/
+.row_set{
+  min-height:100vh;
+  padding-top:80px; /*保留位置給nav*/
+  
+}
+
+@media (min-width: 992px){
+	.introProduct_wrap{
+		padding-left:50px;
+		padding-right:50px;
+	}
+	
+	.introProduct_content-left{
+		padding-left:60px;
+	}
+
+	.step_wrap{
+		padding-left:50px;
+		padding-right:50px;
+	}
+	
+	.textApp_div{
+		padding-left:40px;
+	}
+	
+	.phoneCase_wrap{
+		padding-left:50px;
+		padding-right:50px;
+	}
+	
+}
+
+.title_div{
+	margin-bottom:50px;
+}
+
+
+
+/*字體設定*/
+.subtitle{
+	font-size:x-large;
+}
+
+.context{
+	font-size:large;
+}
+
+
+
+/*內容區塊設定*/
+/*div_wall*/
+#div_wall{
+	background-color:red;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:100vh;    
+	margin-bottom:0px;
+	padding-top:100px;
+  
+	border-radius: 0px; /*去除jumbotron的圓角;*/
+}
+
+
+/*div_introProduct*/
+#div_introProduct{
+	background-color:yellow; 
+}
+#introProduct_img{
+	width:300px;
+}
+
+.textIntroProduct_div{
+	margin-bottom:50px;
+}
+
+
+/*div_step*/
+#div_step{
+	background-color:orange;
+}
+
+.step_img{
+	width:250px;
+}
+
+.textStep_div{
+	padding-top:20px;
+	margin: auto;
+	margin-bottom:50px;
+}
+
+/*div_app*/
+#div_app{
+	background-color:yellow;
+}
+
+.app_img{
+	width:200px;
+}
+
+.textIcon_div{
+	position: relative;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+
+.app_img-icon{
+	width:80px;
+}
+
+.app_content{
+	position: absolute;
+	left:100px;
+	
+	font-size:medium;
+	width:225px;
+	/*background-color:green;*/
+}
+
+/**/
+
+#div_phoneCase{
+	background-color: orange;
+}
+
+.phoneCase_img{
+	width:200px;
+}
+
+.phoneCase_content{
+	width:220px;
+	margin: auto;
+	padding-top:10px;
+}
+
+.color-change{
+	padding-top:5px;
+	height:25px;
+	width:75px;
+	margin: auto;
+}
+
+.circle{
+	width:20px;
+	height:20px;
+	border-radius:99em;
+	margin: 2px;
+	
+}
+
+.circle_red{
+	background-color:red;
+	float:left;
+}
+
+.circle_black{
+	background-color:black;
+	float:left;
+}
+
+.circle_green{
+	background-color:green;
+	float:left;
+}
+
